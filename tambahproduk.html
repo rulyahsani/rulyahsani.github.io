@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            Temukan Kebutuhan anda disini
+        </title>
+        
+        <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
+        <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@700&display=swap" rel="stylesheet">
+            <link href="assets/vendor/fontawesome/css/all.min.css" rel="stylesheet" type="text/css" />
+            <link rel="stylesheet" type="text/css" href="assets/CSS/tambahproduk.css">
+                    <!-- swiper -->
+            <link href="assets/vendor/swiper-5.3.8/package/css/swiper.css" rel="stylesheet" type="text/css" />
+            <link href="assets/vendor/swiper-5.3.8/package/css/swiper.min.css" rel="stylesheet" type="text/css" />
+                   
+    </head>
+    <body>
+        <div class="wrapper">
+            <div class="navs">
+                <ul>
+                    <li>
+                        <a href="#">
+                            Pusat Bantuan
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Hotline Service
+                        </a>
+                    </li>
+                </ul>
+                <ul class="navs-2">
+                    <li>
+                        <a href="#">
+                            Cara Belanja
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Jadi Mitra
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            Cek Supplier
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <nav>
+            
+            <div class="nav-logo">
+                <h4>
+                    <small>rajasuplai</small>
+                </h4>
+            </div>
+            
+            <div class="search">
+                <input name="search" placeholder="Temukan kebutuhan anda disini.." type="text">
+                <i class="fas fa-search"></i>
+                </input>
+            </div>
+            <div class="notif">
+                <div class="icon-cart">
+                    <i class="fas fa-bell"></i>
+                    
+                    <div class="counter">0</div>
+                </div>
+
+                <div class="icon-cart">
+                    <i class="fas fa-envelope"></i>
+                    <div class="counter">0</div>
+                </div>
+            </div>
+            <div class="user">
+                <div class="img-user">
+                    <img src="assets/images/logo/open.svg">
+                </div>
+                <span>User</span>
+            </div>
+            
+        </nav>
+        
+        <div class="container">
+            <div class="add-produk">
+                <h3>Tambah Produk Toko</h3>
+                <div class="warning">
+                    <p>Produk harus sesuai dengan syarat dan ketentuan yang telah disetujui dari rajasuplai.com</p>
+                </div>
+                <div class="upload-img">
+                    <h3>Upload Gambar Produk</h3>
+                    <span>format gambar jpg, png, jpeg dengan ukuran minimum 500 x 500px </span><br>
+                    <div class="upload-file">
+                        <div class="img-upload">
+                            <label>Gambar Utama</label>
+                            <input type="file" name="gambar1">    
+                        </div>
+                        <div class="img-upload">
+                            <label>Gambar Detail</label>
+                            <input type="file" name="gambar1">    
+                        </div>
+                        <div class="img-upload">
+                            <label>Gambar Depan</label>
+                            <input type="file" name="gambar1">    
+                        </div>
+                        <div class="img-upload">
+                            <label>Gambar samping</label>
+                            <input type="file" name="gambar1">    
+                        </div>
+                        <div class="img-upload">
+                            <label>Gambar atas</label>
+                            <input type="file" name="gambar1">    
+                        </div>
+                                            
+                    </div>
+
+                </div>
+                
+                    <div class="info-produk">
+                        <h3>Informasi Produk</h3>
+                        <div class="form-group">
+                            <label>Nama Produk :</label><br>
+                            <input type="text" name="nama" placeholder="Masukan Nama produk">
+                        </div>
+                        <div class="form-group">
+                             <label>Kategori :</label><br>
+                            <input type="text" name="kategori">
+                        </div>
+                        <div class="form-group">
+                            <label>Keterangan Produk :</label><br>
+                            <textarea type="text" nama="keterangan"></textarea>
+                        </div>
+                    </div>
+
+                    <div class="price">
+                        <h3>Harga</h3>
+
+                        <div class="form-group">
+                            <label>Minimum Pembelian :</label><br>
+                            <input type="text" name="minimum" placeholder="1">
+                        </div>
+                        <div class="form-group">
+                             <label>Harga Satuan :</label><br>
+                            <input type="text" name="hargasatuan" placeholder="Masukan harga">
+                        </div>
+                        <div class="form-group">
+                             <label>Stok Produk :</label><br>
+                            <input type="text" name="stok" placeholder="Stok ">
+                        </div>
+                        <div class="form-group">
+                             <label>Berat :</label><br>
+                            <div class="form-select">
+                                    <input type="text" name="berat" placeholder="gram ">
+                            <select type="text" name="satuan">
+                                <option value="#">Satuan</option> 
+                                <option value="gram">Gram(g)</option>
+                                <option value="kg">Kilogram(Kg)</option>
+                                <option value="ton">Ton(ton)</option>
+                            </select>
+                                </div>
+                        </div>
+                    </div>
+                    <div class="btn-aksi">
+                        <button type="submit" name="simpan">Simpan</button>
+                        <button type="reset" name="batal">Batal</button>
+                    </div>
+            </div>
+        </div>
+
+         <!-- Navbar Navigator Bottom -->
+
+               <div class="nav-bottom">
+        <a href="#" class="link_nav">
+            <i class="fas fa-shopping-bag"></i>
+            <span class="nav__text">Keranjang</span>
+        </a>
+        <a href="#" class="link_nav ">
+            <i class="fas fa-boxes"></i>
+            <span class="nav__text">Kategori</span>
+        </a>
+        <a href="#" class="link_nav link_nav--active">
+            <i class="fas fa-store"></i>
+            <span class="nav__text">Home</span>
+        </a>
+        <a href="#" class="link_nav">
+            <i class="fas fa-heart"></i>
+            <span class="nav__text">Favorite</span>
+        </a>
+        <a href="#" class="link_nav">
+            <i class="fas fa-user"></i>
+            <span class="nav__text">User</span>
+        </a>
+        </div>
+
+         <!-- <script src="assets/JS/navbar.js" type="text/javascript"></script> -->
+        <script type="text/javascript" src="assets/JS/dashboard_toko.js"></script>
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+        <script src="assets/vendor/fontawesome/js/fontawesome.min.js" type="text/javascript"></script>
+
+    </body>
+</html>

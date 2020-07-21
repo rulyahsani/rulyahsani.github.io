@@ -1,0 +1,442 @@
+body {
+	background-color: #fafafa;
+}
+
+.container-section {
+	width: 1200px;
+	margin:70px;
+}
+.detail-items {
+	font-family: sans-serif;
+	background-color: #f7f7f7;
+	width: 100%;
+	padding:5px;
+
+}
+.items1 {
+	background-color: white;
+	padding: 10px;
+}
+.items1 .img-brand img {
+	width: 60px;
+	height: 60px;
+	border:2px solid silver;
+	border-radius: 50px;
+	margin-left: 15px;
+
+}
+.items1 span, a {
+	font-size: 12px;
+
+}
+
+.detail-items .batas-line {
+	margin-top: 48px;
+}
+.items1 .judul-detail {
+	font-size: 24px;
+	/*border:1px solid black;*/
+}
+.items2 {
+	background-color: white;
+}
+.items2 .box-detail {
+	width: 100%;
+	padding: 20px;
+	line-height: 40px;
+
+}
+
+.items2 .box-detail .header-box {
+	font-size: 14px;
+	font-weight: 600;
+}
+
+.items2 .box-detail h5 {
+	font-size: 14px;
+}
+
+.items2 .box-detail h3 {
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 30px;
+
+}
+
+.items2 p a{
+	font-size: 12px;
+	color:#bbbbbb;
+}
+
+.items2 .box-detail ul li {
+	list-style: none;
+	font-size: 12px;
+	color:#bbbbbb;
+}
+
+.items1 .detail_harga {
+
+	font-size: 14px;
+	font-weight:bold;
+} 
+
+.items1 .detail_value {
+	font-size: 28px;
+	color: #cf7500;
+	font-weight: bold;
+}
+.items1 .diskon .diskon_value {
+	margin-top: -15px;
+	font-size:16px;
+	width: 50px;
+	height: 30px;
+	border:2px solid #ff5722;
+	border-radius: 2px;
+	text-align: center;
+	line-height: 30px;
+	font-weight:600;
+	color: #c70039;
+
+
+}
+.items1 .diskon p {
+	margin-left: 70px;
+	margin-top:-33px;
+}
+
+.items1 .detail_pengiriman {
+	font-size:14px;
+	font-weight:bold;
+}
+
+.items1 .detail_jasakirim label {
+	font-weight:bold;
+	font-size:14px;
+}
+.items1 .detail_jasakirim span {
+	color:#bbbbbb;
+}
+
+.items1 .detail_jasakirim h6 {
+	font-size:12px;
+	float: right;
+	color: #ff5733;
+}
+
+.items1 .detail_jasakirim .value {
+	color: #ffa41b;
+}
+
+.items1 .jumlah_pesanan {
+	font-size:14px;
+	font-weight:bold;
+}
+
+
+.items1 .value_order .minus {
+	width: 40px;
+	height: 40px;
+	border:1px solid #005082;
+	background-color: #005082;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	border-radius: 5px;
+}
+
+.items1 .value_order input {
+	margin-left: 40px;
+	margin-top:-40px;
+	position: absolute;
+	text-align: center;
+	width: 162px;
+	height: 40px;
+
+}
+
+.items1 .value_order .plus {
+	width: 40px;
+	height: 40px;
+	border:1px solid #005082;
+	background-color: #005082;
+	color: white;
+	line-height: 30px;
+	text-align: center;
+	float: right;
+	margin-right: 120px;
+	margin-top:-40px;
+	border-radius: 5px;
+}
+
+.items1 .btn-order button {
+	margin-top:50px;
+	color: white;
+	box-shadow: 0px 5px 5px rgba(0,0,0,.25);
+	margin-left:20px;
+}
+
+.items1 .favorit {
+	font-size:16px;
+}
+.items1 .share {
+	font-size:16px;
+}
+/*swiper start css*/
+.swiper-container {
+      width: 100%;
+      height: 100%;
+    }
+ .swiper-slide {
+      text-align: center;
+      font-size: 18px;
+      background: #fff;
+
+      /* Center slide text vertically */
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: center;
+      -ms-flex-pack: center;
+      -webkit-justify-content: center;
+      justify-content: center;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+    }
+    .swiper-slide img {
+    	width: 100%;
+    	height: 400px;
+    }
+/*swiper end*/
+
+
+.detail-items .spesifikasi {
+
+	margin-top:50px;
+}
+.detail-items .spesifikasi h4 {
+	font-size:16px;
+	font-weight: bold;
+	margin-bottom: 20px;
+
+}
+
+.detail-items .service_supplay h4 {
+	font-size:14px;
+	font-weight: bold;
+}
+
+
+.detail-items .service_supplay ul {
+	font-size: 12px;
+}
+
+
+.detail-items .box-diskon {
+	margin-top:50px;
+	width: 420px;
+	height: 200px;
+	background-color: #cff1ef;
+	padding: 20px;
+}
+
+.container-main {
+	margin-left:50px;
+	margin-right: 50px;
+	margin-bottom: 50px;
+	box-shadow: 0 2px 5px silver;
+	transition: all 0.3s ease-in-out;
+}
+.container-main:hover {
+	box-shadow: 1px 2px 10px silver;
+}
+
+.deskripsi-tab, .spesifikasi-tab,
+.diskusi-tab, .ulasan-tab {
+	padding: 15px;
+	width: 20%;
+	display: inline-block;
+	box-sizing: border-box;
+	text-align: center;
+	text-transform: uppercase;
+	cursor: pointer;
+}
+
+.active {
+	background-color: #2083E9;
+}
+ 
+.deskripsicontainer .head-main {
+	/*background-color: lightblue;*/
+	margin-top: 20px;
+	padding: 10px;
+}
+.deskripsicontainer .head-main h3 {
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.deskripsicontainer .desc-main {
+	
+	padding: 30px;
+	width: 100%;
+	border:1px solid silver;
+}
+.deskripsicontainer .desc-main h4 {
+	margin-top: 50px;
+	margin-bottom: 50px;
+}
+
+
+.spesifikasicontainer .head-spesifikasi {
+	background-color: #2083E9;
+	/*margin-top: 50px;*/
+	padding: 10px;
+}
+
+.spesifikasicontainer .head-spesifikasi h3 {
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+	margin-left: 50px;
+}	
+
+
+.spesifikasicontainer .desc-spesifikasi {
+	padding: 30px;
+	width: 100%;
+	border:1px solid silver;
+}
+
+.spesifikasicontainer .desc-spesifikasi h4 {
+	margin-bottom: 50px;
+	margin-top:50px;
+	font-size: 20px;
+}
+
+.diskusicontainer .head-diskusi {
+	background-color: #2083E9;
+	/*margin-top: 50px;*/
+	padding: 10px;
+}
+
+.diskusicontainer .head-diskusi h3 {
+	margin-left: 50px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.diskusicontainer .desc-diskusi {
+	padding: 30px;
+	width: 100%;
+	border:1px solid silver;
+}
+
+
+.ulasancontainer .head-ulasan {
+	background-color: #2083E9;
+	/*margin-top: 50px;*/
+	padding: 10px;
+}
+
+.ulasancontainer .head-ulasan h3 {
+	margin-left: 50px;
+	font-family: arial;
+	font-size: 16px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.ulasancontainer .desc-ulasan {
+	padding: 30px;
+	width: 100%;
+	border:1px solid silver;
+}
+
+
+
+@media screen and (max-width:768px) {
+	nav {
+		height: 100px;
+	}
+	
+	nav ul {
+		width: 33%;
+	}
+
+nav .nav-logo {
+	/*letter-spacing: 2px;*/
+	font-size: 20px;
+	opacity: 0;
+
+}
+nav .category {
+	margin-left: -150px;
+}
+
+nav .search input {
+	width: 200px;
+}
+.nav_bottom_link {
+	opacity: 0;
+	}
+}
+
+
+@media screen and (max-width:576px) {
+	.wrapper {
+		display: none;
+	}
+	nav {
+		height: 120px;
+		padding: 10px;
+	}
+	nav .nav-logo {
+		position: absolute;
+		top: 15px;
+		text-align: left;
+		opacity: 1;
+	}
+	nav .nav-logo h4 {
+		text-align: left;
+		color: white;
+	}
+	nav .category {
+		display: none;
+	}
+	nav .search input {
+		top: 20px;
+		width: 370px;
+	}
+	nav ul {
+		position: absolute;
+		right: 0;
+		width: 75%;
+		top: 0;
+		height: 100vh;
+		flex-direction: column;
+		background-color: black;
+		align-items: center;
+		justify-content: space-evenly;
+		z-index: -2;
+		background-color: blue;
+
+		transform: translateX(100%);
+		transition:all 1s;
+		opacity: 0;
+	}
+	.menu-toggle {
+		display: flex;
+	}
+	.icon-cart {
+		display: none;
+	}
+
+}

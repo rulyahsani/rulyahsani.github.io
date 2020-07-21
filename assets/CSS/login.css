@@ -1,0 +1,201 @@
+* {
+	margin:0;
+	padding: 0;
+}
+body {
+	background-color: #FaFaFa;
+
+}
+
+.box-body {
+	margin-left: 150px;
+	margin-top:50px;
+	width: 400px;
+	height: 500px;
+	/*border:1px solid #000;*/
+	border-radius: 5px;
+	padding: 20px;
+	background-color: #fff;
+	box-shadow: 2px 4px 6px rgba(0,0,0,.35);
+}
+.box-body h1 {
+	text-align: center;
+	font-size: 24px;
+}
+.form-input {
+	margin-left: 40px;
+	margin-top: 30px;
+}
+
+.form-input label {
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+.form-input input {
+	width: 300px;
+	height: 30px;
+	padding: 5px;
+	border:1px solid #c2c2c2;
+	border-radius: 5px;
+}
+.box-body a, h4 {
+	text-decoration: none;
+	margin-top: 10px;
+	font-size: 14px;
+	color: green;
+	margin-left: 40px;
+}
+
+.btn-submit {
+	margin-left: 70px;
+	text-align: center;
+	margin-top: 40px;
+	width: 250px;
+	height: 35px;
+	border:1px solid #376AFB;
+	line-height: 35px;
+	background-color: #376AFB; 
+	border-radius: 5px;
+	color: #fff;
+	text-transform:uppercase;
+}
+
+.btn-submit a {
+	color: #fff;
+	margin-right: 40px;
+}
+
+
+.menu-title {
+	display: flex;
+	justify-content: space-around;
+	margin-left:40px;
+	margin-right:40px;
+	margin-top: 20px;
+}
+
+.menu-title .lines1, .lines2 {
+	width: 80px;
+	height: 2px;
+	background-color: #ccc;
+	margin-top: 10px;
+}
+
+.menu-title .judul {
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.login-sosmed {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+.login-sosmed .fb, .ggl {
+	width: 150px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.login-sosmed .fb:hover, .ggl:hover {
+	background-color: #f2f2f2;
+	border:1px solid #f2f2f2;
+}
+
+.notif h3 {
+	font-size: 15px;
+	margin-top:35px;
+	text-align: center;
+	color:#ccc;
+}
+.notif a {
+	margin-left: 180px;
+	color: green;
+	font-weight: bold;
+}
+
+
+@media (max-width:375px) {
+	
+.box-body {
+	margin-left: 10px;
+	margin-top:20px;
+	width: 320px;
+	height: 550px;
+	border-radius: 3px;
+	padding: 20px;
+}
+
+.form-input {
+	margin-left: 20px;
+	margin-top: 30px;
+}
+
+.form-input label {
+	font-size: 14px;
+}
+
+.form-input input {
+	width: 270px;
+}
+
+.btn-submit {
+	margin-left: 40px;
+	width: 250px;
+}
+
+.menu-title .judul {
+	font-size: 12px;
+	opacity: 0.6;
+}
+
+.login-sosmed {
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-top: 30px;
+	display: flex;
+	justify-content: space-around;
+}
+
+.login-sosmed .fb, .ggl {
+	width: 150px;
+	height: 30px;
+	font-size: 14px;
+	text-align: center;
+	line-height: 30px;
+	border:1px solid #ccc;
+	border-radius: 5px;
+}
+
+.login-sosmed .fb:hover, .ggl:hover {
+	background-color: #f2f2f2;
+	border:1px solid #f2f2f2;
+}
+
+.notif h3 {
+	font-size: 15px;
+	margin-top:35px;
+	text-align: center;
+	color:#ccc;
+}
+.notif a {
+	margin-left: 130px;
+	color: green;
+	font-weight: bold;
+}	
+}
+
+
+
+
+
+
+
+

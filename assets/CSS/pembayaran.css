@@ -1,0 +1,718 @@
+* {
+	padding: 0;
+	margin:0;
+}
+
+body {
+	overflow-x: hidden;
+	background-color: #fafafa;
+}
+
+header {
+	box-sizing: border-box;
+}
+.navbar {
+	background-color: #fff;
+	/*width: 100%;*/
+	height: 70px;
+	display: flex;
+	justify-content: space-between;
+	/*padding: 20px;*/
+	box-sizing: border-box;
+	align-items: center;
+	box-shadow: 0 1px 3px rgba(0,0,0,.25);
+}
+.navbar h3 {
+	font-size: 24px;
+	margin-left: 50px;
+	color: #352D69;
+}
+
+.navbar h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 32px;
+	font-weight:800;
+	color: #330CFA;
+}
+
+.navbar .img-logo {
+	display: flex;
+	/*justify-content: space-around;*/
+	width: 150px;
+	align-items: center;
+	/*border:1px solid black;*/
+	margin-right: 40px;
+}
+.navbar .img-logo .line {
+	height: 2px;
+	width: 30px;
+	background-color: #0D3EDF;
+	border-radius: 5px;
+	margin:10px;
+}
+
+
+.navbar .img-logo .img-box1 {
+	width: 40px;
+	height: 40px;
+	/*border:1px solid black;*/
+	border-radius: 50px;
+	text-align: center;
+	line-height: 40px;
+	/*background-color:orange;*/
+}
+
+.navbar .img-logo img {
+	width: 40px;
+	height: 40px;
+}
+.nav-bottom {
+	display: none;
+}
+
+.payment {
+	display: flex;
+	justify-content: space-between;
+	margin:50px;
+	/*border:1px solid black;*/
+	/*padding: 20px;*/
+	box-sizing: border-box;
+}
+
+.payment .metode {
+	width: 800px;
+	background-color: white;
+	border:1px solid #E7E7E7;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+	padding: 20px;
+	/*margin:10px;*/
+}
+.payment .metode .chosepay {
+	margin-left:20px;
+}
+
+.payment .metode h3 {
+	font-weight: 400;
+}
+.payment .metode .select-bank {
+	display: block;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+.payment .metode .select-bank select {
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.payment .metode .select-bank .rules{
+	margin-top: 20px;
+	/*opacity: 0;*/
+}
+.payment .metode .select-bank .rules p {
+	font-weight:bold;
+	font-size:14px;
+}
+.payment .metode .select-bank .rules ul {
+	margin-top:10px; 
+	margin-left:20px;
+	font-size:13px;
+}
+
+
+.payment .metode .net-bank {
+	display: none;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+.payment .metode .net-bank select {
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.payment .metode .net-bank .rules{
+	margin-top: 20px;
+	/*opacity: 0;*/
+}
+.payment .metode .net-bank .rules p {
+	font-weight:bold;
+	font-size:14px;
+}
+.payment .metode .net-bank .rules ul {
+	margin-top:10px; 
+	margin-left:20px;
+	font-size:13px;
+}
+
+.payment .metode .e-money {
+	display: none;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+.payment .metode .e-money select {
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+.payment .metode .e-money .rules{
+	margin-top: 20px;
+	/*opacity: 0;*/
+}
+.payment .metode .e-money .rules p {
+	font-weight:bold;
+	font-size:14px;
+}
+.payment .metode .e-money .rules ul {
+	margin-top:10px; 
+	margin-left:20px;
+	font-size:13px;
+}
+
+.payment .metode label {
+	font-size: 15px;
+	font-weight: bold;
+	margin:10px;
+}
+.payment .paynow {
+	width: 430px;
+	background-color:white;
+	border:1px solid #E7E7E7;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.payment .paynow h3 {
+	font-weight:400;
+}
+.payment .paynow h4 {
+	margin-top: 20px;
+	width: 300px;
+	height: 50px;
+	border:1px solid #F07929;
+	text-align:center;
+	line-height: 50px;
+	margin-left:50px;
+	border-radius: 15px;
+	background-color:#F07929;
+	cursor: pointer;
+}
+.payment .paynow h4:hover {
+	background-color: #FF5B02;
+}
+
+.payment .paynow h4 a {
+	text-decoration: none;
+	color: white;
+	font-weight:200;
+}
+
+.logo-bank {
+	/*border:1px solid black;*/
+	width: 600px;
+	margin-top:30px;
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin-left:50px;
+}
+.logo-bank img {
+	width: 80px;
+	height: 40px;
+}
+.copyright {
+	background-color: #CFCCCC;
+	text-align: center;
+	padding-top:10px;
+	padding-bottom:10px;
+}
+.copyright p {
+	font-size:14px;
+}
+.pay-price {
+	margin-top:30px;
+	margin-left:30px;
+}
+.pay-price table {
+	width: 400px;
+}
+.total {
+	padding: 30px;
+	display: flex;
+	justify-content: space-between;
+
+}
+.total h3 {
+	color: #EC640A;
+	font-weight:bold;
+	font-size:24px;
+}
+
+@media screen and (max-width:768px) {
+
+.navbar {
+}
+.navbar h3 {
+	font-size: 18px;
+	margin-left: 50px;
+	color: #352D69;
+}
+
+.navbar h2 {
+	font-family: 'Comfortaa', cursive;
+	font-size: 22px;
+	font-weight:800;
+	color: #330CFA;
+}
+
+.navbar .img-logo {
+	display: flex;
+	width: 100px;
+	align-items: center;
+	/*border:1px solid black;*/
+	margin-right: 40px;
+}
+
+
+.navbar .img-logo img {
+	width: 25px;
+	height: 25px;
+}
+
+
+.payment {
+	display: block;
+	justify-content: space-between;
+	margin:20px;
+	left:0;
+	/*border:1px solid black;*/
+	/*padding: 20px;*/
+	box-sizing: border-box;
+}
+
+.payment .metode {
+	width: 520px;
+	background-color: white;
+	border:1px solid #E7E7E7;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+	padding: 20px;
+	/*margin:10px;*/
+}
+.payment .metode .chosepay {
+	margin-left:20px;
+}
+
+
+.payment .metode .select-bank {
+	display: block;
+	/*opacity: 0;*/
+	width: 420px;
+	/*height: 300px;*/
+	margin-left: 10px;
+	margin-top:20px;
+}
+
+
+.payment .metode .net-bank {
+	display: none;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+.payment .metode .net-bank select {
+	width: 300px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.payment .metode .e-money {
+	display: none;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+
+.payment .paynow {
+	width: 520px;
+	background-color:white;
+	text-transform: uppercase;
+	border:1px solid #E7E7E7;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.payment .paynow h3 {
+	font-weight:400;
+}
+.payment .paynow h4 {
+	margin-top: 20px;
+	width: 300px;
+	height: 50px;
+	border:1px solid #F07929;
+	text-align:center;
+	line-height: 50px;
+	margin-left:100px;
+	border-radius: 5px;
+	background-color:#F07929;
+	cursor: pointer;
+}
+.payment .paynow h4:hover {
+	background-color: #FF5B02;
+}
+
+.payment .paynow h4 a {
+	text-decoration: none;
+	color: white;
+	font-weight:200;
+}
+
+.logo-bank {
+	/*border:1px solid black;*/
+	width: 300px;
+	margin-top:30px;
+	margin-left:-13px;
+
+}
+.logo-bank img {
+	width: 30px;
+	height: 30px;
+}
+
+.copyright {
+	margin-bottom:60px;
+}
+.copyright p {
+	font-size:12px;
+}
+.pay-price {
+	margin-top:30px;
+	margin-left:15px;
+}
+.pay-price table {
+	width: 450px;
+}
+.pay-price table tr td:nth-child(2) {
+	text-align: right;
+	color: 
+}
+
+.total h3 {
+	color: #EC640A;
+	font-weight:bold;
+	font-size:24px;
+}
+.paynow h5 {
+	width: 200px;
+	height: 50px;
+	background-color: #E5DEDE;
+	line-height: 30px;
+	padding: 10px;
+	box-sizing:border-box;
+	padding-left: 30px;
+}
+
+
+/*Bottom navigator  */
+
+.nav-bottom {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    /*overflow-x: auto;*/
+    box-sizing: border-box;
+    z-index: 99999999;
+
+  }
+
+  .nav-bottom .link_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444;
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+    transition:background-color 0.1s ease-in-out;
+
+    white-space: nowrap;
+  }
+  .nav-bottom .nav__text {
+    color: #000;
+    font-size: 12px;
+
+  }
+
+  .nav-bottom .link_nav:hover {
+    background-color: #eee;
+  }
+
+  .nav-bottom .link_nav--active {
+    color: #009578;
+  }  
+
+  .nav-bottom .link_nav .fas {
+     font-size: 20px;
+     margin-top:-8px;
+     position: absolute;
+
+  }
+
+  .nav-bottom .link_nav .nav__text {
+    /*position: absolute;*/
+    margin-bottom:-25px;
+  }
+
+}
+
+
+@media (max-width:375px) {
+	
+.navbar {
+}
+.navbar h3 {
+	font-size: 13px;
+	margin-left: 20px;
+	color: #352D69;
+}
+
+.navbar h2 {
+	display: none;
+}
+
+.payment {
+	display: block;
+	margin:10px;
+}
+
+.payment .metode {
+	width: 340px;
+}
+.payment .metode .chosepay {
+	margin:0;
+}
+
+
+.payment .metode .select-bank {
+	width: 300px;
+}
+.payment .metode .select-bank select {
+	margin-left:-20px;
+	width: 260px;
+}
+
+
+.payment .metode .net-bank {
+	display: none;
+	/*opacity: 0;*/
+	width: 270px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 15px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+.payment .metode .net-bank select {
+	width: 150px;
+	height: 40px;
+	padding: 10px;
+	border-radius: 5px;
+}
+
+.payment .metode .e-money {
+	display: none;
+	/*opacity: 0;*/
+	width: 660px;
+	/*height: 300px;*/
+	border:1px solid #f0f0f0;
+	margin-left: 30px;
+	box-sizing: border-box;
+	padding: 40px;
+	background-color:#fbfbfb;
+}
+
+.payment .paynow {
+	width: 520px;
+	background-color:white;
+	text-transform: uppercase;
+	border:1px solid #E7E7E7;
+	box-sizing: border-box;
+	padding: 20px;
+	border-radius: 5px;
+}
+
+.payment .paynow h3 {
+	font-weight:400;
+}
+.payment .paynow h4 {
+	margin-top: 20px;
+	width: 300px;
+	height: 50px;
+	border:1px solid #F07929;
+	text-align:center;
+	line-height: 50px;
+	margin-left:100px;
+	border-radius: 5px;
+	background-color:#F07929;
+	cursor: pointer;
+}
+.payment .paynow h4:hover {
+	background-color: #FF5B02;
+}
+
+.payment .paynow h4 a {
+	text-decoration: none;
+	color: white;
+	font-weight:200;
+}
+
+.logo-bank {
+	/*border:1px solid black;*/
+	width: 300px;
+	margin-top:30px;
+	margin-left:-13px;
+
+}
+.logo-bank img {
+	width: 30px;
+	height: 30px;
+}
+
+.copyright {
+	margin-bottom:60px;
+}
+.copyright p {
+	font-size:12px;
+}
+.pay-price {
+	margin-top:30px;
+	margin-left:15px;
+}
+.pay-price table {
+	width: 450px;
+}
+.pay-price table tr td:nth-child(2) {
+	text-align: right;
+	color: 
+}
+
+.total h3 {
+	color: #EC640A;
+	font-weight:bold;
+	font-size:24px;
+}
+.paynow h5 {
+	width: 200px;
+	height: 50px;
+	background-color: #E5DEDE;
+	line-height: 30px;
+	padding: 10px;
+	box-sizing:border-box;
+	padding-left: 30px;
+}
+
+
+/*Bottom navigator  */
+
+.nav-bottom {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: 55px;
+    box-shadow: 0 0 3px rgba(0,0,0,0.2);
+    background-color: #fff;
+    /*overflow-x: auto;*/
+    box-sizing: border-box;
+    z-index: 99999999;
+
+  }
+
+  .nav-bottom .link_nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    min-width: 50px;
+    overflow: hidden;
+    font-family: sans-serif;
+    font-size: 13px;
+    color: #444;
+    text-decoration: none;
+    -webkit-tap-highlight-color:transparent;
+    transition:background-color 0.1s ease-in-out;
+
+    white-space: nowrap;
+  }
+  .nav-bottom .nav__text {
+    color: #000;
+    font-size: 12px;
+
+  }
+
+  .nav-bottom .link_nav:hover {
+    background-color: #eee;
+  }
+
+  .nav-bottom .link_nav--active {
+    color: #009578;
+  }  
+
+  .nav-bottom .link_nav .fas {
+     font-size: 20px;
+     margin-top:-8px;
+     position: absolute;
+
+  }
+
+  .nav-bottom .link_nav .nav__text {
+    /*position: absolute;*/
+    margin-bottom:-25px;
+  }
+}
